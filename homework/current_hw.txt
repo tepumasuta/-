@@ -1,0 +1,4 @@
+X~Составить html страницу (homework/tasks bank/1.txt)
+X~Заучить тэги: {html, body, h1-h6, p, a, img}
+X~Заучить атрибуты(a -> href, html -> lang, любой тэг -> style, title, img -> src, alt, width, height)
+X~Заучить правила оформления(homework/tasks bank/code formatting dictionary.txt 1-6 пункты)
