@@ -8,7 +8,7 @@
 6. HTML элементы обозначают частицы контента, такие как "это заголовок", "это параграф", "это ссылка" и т.д.
 
 Простой HTML документ
-/begin{HTML-syntax}
+/&html
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +21,7 @@
 
 </body>
 </html>
-/end{HTML-syntax}
+&html/
 
 Объяснение простого HTML документа
 1. <!DOCTYPE html> декларация определяющая, что это документ формата HTML5
@@ -40,10 +40,10 @@ HTML элемент определяется открывающим тэгом, 
 
 HTML элемент  --  это всё от открывающего тэга до закрывающего тэга
 
-/begin{HTML-syntax}
+/&html
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
-/end{HTML-syntax}
+&html/
 
 Открывающий тэг          Контент          Закрывающий тэг
     <h1>             My First Heading          </h1>
@@ -153,7 +153,7 @@ HTML картинки определяются с помощью тэга <img>
 2. Все HTML документы состоят из вложенных HTML элементов
 
 Следующий пример содержит 4 HTML элемента(<html>, <body>, <h1>, <p>):
-/begin{HTML-syntax}
+/&html
 <!DOCTYPE html>
 <html>
 <body>
@@ -163,48 +163,48 @@ HTML картинки определяются с помощью тэга <img>
 
 </body>
 </html>
-/end{HTML-syntax}
+&html/
 
 Объяснение примера:
 <html> элемент  --  корневой элемент и он определяет весь документ.
 Он имеет открывающий тэг <html> и закрывающий тэг </html>.
 Затем, внутри <html> элемента есть элемент <body>
 
-/begin{HTML-syntax}
+/&html
 <body>
 
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
 
 </body>
-/end{HTML-syntax}
+&html/
 
 <body> элемент определяет тело документа.
 Он имеет открывающий тэг <body> и закрывающий тэг </body>.
 Затем, внутри элемента <body> есть элементы <h1> и <p>
 
-/begin{HTML-syntax}
+/&html
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
-/end{HTML-syntax}
+&html/
 
 <h1> элемент определяет заголовок.
 Он имеет открывающий тэг <h1> и закрывающий тэг </h1>
 
-/begin{HTML-syntax}
+/&html
 <h1>My First Heading</h1>
-/end{HTML-syntax}
+&html/
 
 <p> элемент определяет параграф.
 Он имеет открывающий тэг <p> и закрывающий тэг </p>
 
-/begin{HTML-syntax}
+/&html
 <p>My first paragraph.</p>
-/end{HTML-syntax}
+&html/
 	
 	Никогда не пропускай закрывающий тэг
 Некоторые HTML элементы будут отображаться корректно, даже если ты забудешь закрывающий тэг
-/begin{HTML-syntax}
+/&html
 <html>
 <body>
 
@@ -213,7 +213,7 @@ HTML картинки определяются с помощью тэга <img>
 
 </body>
 </html>
-/end{HTML-syntax}
+&html/
 
 ОДНАКО НИКОГДА НЕ ПОЛАГАЙСЯ НА ЭТО! НЕОЖИДАННЫЕ РЕЗУЛЬТАТЫ И ОШИБКИ МОГУТ ВОЗНИКНУТЬ ЕСЛИ ТЫ ЗАБУДЕШЬ ЗАКРЫВАЮЩИЙ ТЭГ
 
@@ -221,9 +221,9 @@ HTML картинки определяются с помощью тэга <img>
 HTML элементы, которые не могут иметь контента называются пустыми HTML элементами
 
 Элемент <br> определяет возврат каретки(перевод строки или же 'enter') и является пустым элементом без закрывающего тэга:
-/begin{HTML-syntax}
+/&html
 <p>This is a <br> paragraph with a line break.</p>
-/end{HTML-syntax}
+&html/
 
 	HTML не восприимчив к регистру
 HTML тэги не чувствительны к регистру: <P> и <p> значат одно и то же.
@@ -247,13 +247,13 @@ HTML атрибуты предоставляют дополнительную и
 
 	Атрибут href
 Тэг <a> определяет гиперссылку. Атрибут href указывает URL путь к странице, куда должна вести эта ссылка:
-/begin{HTML-syntax}
+/&html
 <a href="https://www.w3schools.com">Visit W3Schools</a>
-/end{HTML-syntax}
+&html/
 
 	Атрибут src
 Тэг <img> используется для вставки картинки на HTML страницу. src атрибут указывает путь к отображаемой картинке:
-/begin{HTML-syntax}
+/&html
 <img src="img_girl.jpg">
-/end{HTML-syntax}
+&html/
 
